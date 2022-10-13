@@ -1,174 +1,374 @@
-<!DOCTYPE html>
-<html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфоліо</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/modern-normalize.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body class="page">
-    <!--Шапка сайта-->
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
-          <a href="/index.html" class="logo">
-            <span class="logo-blu">Web</span>Studio</a
-          >
-          <ul class="ul-link">
-            <li class="li-footer">
-              <a href="./index.html" class="link-st-port-cont">Студія</a>
-            </li>
-            <li class="li-footer">
-              <a href="./portfolio.html" class="link-st-port-cont">Портфоліо</a>
-            </li>
-            <li class="li-footer">
-              <a href="./index.html" class="link-st-port-cont">Контакти</a>
-            </li>
-          </ul>
-        </nav>
-        <ul class="ul-link-tel">
-          <li class="li-footer">
-            <a href="info@devstudio.com" class="link-mail-tel"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="li-footer">
-            <a href="+380961111111" class="link-mail-tel">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <!--основна main -->
-    <!--унікальний зміст-->
-    <section class="section-portfolio">
-      <!-- filtrs -->
-      <div class="container">
-        <ul class="image">
-          <li><button type="button" class="nav-button">Усі</button></li>
-          <li><button type="button" class="nav-button">Веб-сайти</button></li>
-          <li><button type="button" class="nav-button">Додатки</button></li>
-          <li><button type="button" class="nav-button">Дизайн</button></li>
-          <li><button type="button" class="nav-button">Маркетинг</button></li>
-        </ul>
-        <ul class="image-foto">
-          <li class="li-foto">
-            <img src="./images/img21.jpg" alt="Технокряк" width="370" />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Технокряк</h3>
-              <p class="text-portfolio">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img
-              src="./images/img22.jpg"
-              alt="Постер New Orlean vs Golden  Star"
-              width="370"
-            />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Постер New Orlean vs Golden Star</h3>
-              <p class="text-portfolio">Дизайн</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img src="./images/img23.jpg" alt="Ресторан Seafood" width="370" />
+.page {
+  font-family: "Roboto", sans-serif;
+}
+* {
+  --box-sizing: border-box;
+}
 
-            <div class="div-portfolio">
-              <h3 class="namefoto">Ресторан Seafood</h3>
-              <p class="text-portfolio">Додаток</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img src="./images/img24.jpg" alt="Проєкт Prime" width="370" />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Проєкт Prime</h3>
-              <p class="text-portfolio">Маркетинг</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img src="./images/img25.jpg" alt="Проєкт Boxes" width="370" />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Проєкт Boxes</h3>
-              <p class="text-portfolio">Додаток</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img
-              src="./images/img26.jpg"
-              alt="Inspiration has no Borders"
-              width="370"
-            />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Inspiration has no Borders</h3>
-              <p class="text-portfolio">Веб-сайт</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img
-              class="fotoport"
-              src="./images/img27.jpg"
-              alt="Видання Limited Edition"
-              width="370"
-            />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Видання Limited Edition</h3>
-              <p class="text-portfolio">Дизайн</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img src="./images/img28.jpg" alt="Проєкт LAB" width="370" />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Проєкт LAB</h3>
-              <p class="text-portfolio">Маркетинг</p>
-            </div>
-          </li>
-          <li class="li-foto">
-            <img src="./images/img29.jpg" alt="Growing Business" width="370" />
-            <div class="div-portfolio">
-              <h3 class="namefoto">Growing Business</h3>
-              <p class="text-portfolio">Додаток</p>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- нижня частина footer>-->
-    <footer class="footer">
-      <div class="container">
-        <a href="/index.html" class="logo2">
-          <span class="logo-blu">Web</span>Studio</a
-        >
-        <address class="adress">
-          <ul class="ul-link3">
-            <li>
-              <a
-                class="address"
-                href="https://www.google.com/maps/d/u/0/viewer?mid=10uSM3H-mIU3GznYo2szRIEphczw&msa=0&ll=50.42732700000004%2C30.538092&z=17"
-                >м. Київ, пр-т Лесі Українки, 26</a
-              >
-            </li>
-            <li class="mail-footer">
-              <a href="info@devstudio.com" class="link-mail-tel"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li class="tel-fotter">
-              <a href="+380961111111" class="link-mail-tel">+380961111111</a>
-            </li>
-          </ul>
-        </address>
-      </div>
-    </footer>
-  </body>
-</html>
+ul,
+h1,
+h2,
+h3,
+p {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* .ul-link,
+.ul-link-detail,
+.ul-link-foto,
+.ul-link3,
+.ul-link4,
+.ul-link-tel,
+.image { */
+
+.ul-link-tel {
+  display: block;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header {
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #ececec;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+.li-footer {
+  margin-right: 50px;
+}
+.li-footer:last-child {
+  margin-right: 0px;
+}
+.logo,
+.logo2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  width: 145px;
+  height: 31px;
+  margin-right: 93px;
+}
+.logo2 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.logo-blu {
+  color: #2196f3;
+}
+
+.link-st-port-cont {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+  padding: 32px 0px;
+  display: block;
+}
+
+.link-st-port-cont:hover,
+:focus {
+  color: #2196f3;
+}
+
+.link-mail-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.ul-link {
+  display: flex;
+  text-decoration: none;
+  /* gap: 50px; */
+}
+
+.link-mail-tel:hover,
+.link-mail-tel:focus {
+  color: #2196f3;
+}
+
+/* .main-page {} */
+
+.section {
+  background: #2f303a;
+  border-radius: 0px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+}
+
+.section-title {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: #ffffff;
+}
+
+.section-foto {
+  padding-bottom: 94px;
+  background-color: #ffffff;
+}
+
+.section-comand {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: #f5f4fa;
+}
+
+.tekst-main {
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  width: 696px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.button-blu {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  display: block;
+  border-color: #2196f3;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.ul-link-detail {
+  display: inline-flex;
+  gap: 30px;
+}
+/* .li-detail {
+} */
+.ul-link-foto {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+.content-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.head-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.ul-link4 {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.li-comands {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.text-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* .mail-footer {
+  margin-bottom: 0px;
+} */
+.tel-footer {
+  margin-bottom: 75px;
+}
+/* .adress {
+  margin-bottom: 0px;
+  padding: 0px;
+} */
+.ul-link3 {
+  display: flex;
+  flex-direction: column;
+
+  gap: 9px;
+}
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+}
+.address:hover {
+  color: #2196f3;
+}
+
+/* /портфоліо */
+
+.nav-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f5f4fa;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border-color: #f5f4fa;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px 22px;
+}
+
+.nav-button:hover,
+.nav-button:focus {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+}
+
+.namefoto {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.text-portfolio {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  display: flex;
+  color: #757575;
+}
+/* портфоліо */
+.div-portfolio {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
+}
+
+.image-foto {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-left: 0px;
+  background-color: #ffffff;
+}
+.nav-button:focus,
+.nav-button:hover {
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.section-portfolio {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
