@@ -27,10 +27,17 @@ img {
 .ul-link4,
 .ul-link-tel,
 .image { */
+.div-header {
+  display: flex;
+}
 
 .ul-link-tel {
-  display: block;
+  display: flex;
   justify-content: flex-end;
+  padding-right: 0px;
+  padding-left: 0px;
+  align-items: center;
+  margin-left: auto;
 }
 
 .container {
