@@ -28,7 +28,8 @@ img {
 .ul-link-tel,
 .image { */
 .div-header {
-  display: flex;
+ display: flex;
+ justify-content: space-between;
 }
 
 .ul-link-tel {
