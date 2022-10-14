@@ -167,7 +167,7 @@
   background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  }
+}
 
 .ul-link-detail {
   display: inline-flex;
@@ -266,8 +266,8 @@
 .adress {
   margin-bottom: 0px;
   padding: 0px;
-} */
-.ul-link3 {
+}
+*/ .ul-link3 {
   display: flex;
   flex-direction: column;
 
